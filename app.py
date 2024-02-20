@@ -4,7 +4,7 @@ import base64
 from io import BytesIO
 from flask_cors import CORS, cross_origin
 
-from PIL import Image, ImageOps, ImageFilter, ImageDraw, ImageEnhance, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 from image_processing.generate_background import generate_image
 
 
